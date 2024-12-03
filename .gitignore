@@ -1,1 +1,6 @@
+*.out
 *.txt
+
+debug/
+target/
+Cargo.lock
