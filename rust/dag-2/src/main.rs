@@ -13,6 +13,8 @@ fn main() {
             .split_whitespace()
             .map(|num| num.parse::<i32>().unwrap());
 
+        let tolerance = true;
+
         let first = nums.next().unwrap();
         let second = nums.next().unwrap();
 
@@ -42,6 +44,5 @@ fn main() {
         }
     }
 
-    // Part 1 Done
     println!("{counter_safe}");
 }
